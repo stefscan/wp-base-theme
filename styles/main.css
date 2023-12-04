@@ -1,0 +1,121 @@
+/*----------------------------------*/
+/*             Base                 */
+/*----------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 400px;
+    color: #efefef;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin: 80px 0px;
+}
+
+footer {
+    height: 100px;
+    border-top: 1px solid #333;
+}
+
+
+/*----------------------------------*/
+/*           Mise en page           */
+/*----------------------------------*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Grille d'affichage flexbox */
+
+/* 5 items */
+.item-20 {
+    flex-basis: 19%;
+}
+
+/* 4 items */
+.item-25 {
+    flex-basis: 23%;
+}
+
+/* 3 items */
+.item-33 {
+    flex-basis: 32%;
+}
+
+/* 2 items */
+.item-50 {
+    flex-basis: 48%;
+}
+
+/* 1 item */
+.item-100 {
+    flex-basis: 100%;
+}
+
+/*----------------------------------*/
+/*        Modules / composants      */
+/*----------------------------------*/
+
+.btn {
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #333;
+    padding: 8px 5px;
+    text-decoration: none;
+    max-width: 200px;
+    transition: all 250ms ease;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #efefef;
+}
+
+
+/*----------------------------------*/
+/*             Responsive           */
+/*----------------------------------*/
+
+/* Tablette */
+
+@media screen and (max-width:1024px) {
+    header {
+        text-align: center;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+}
