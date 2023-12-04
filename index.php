@@ -1,6 +1,5 @@
-<?php
+<?php get_header(); ?>
 
-    echo 'Index start theme';
-    /*  Push test from home */
+    <p>Site content!</p>
 
-?>
+<?php get_footer(); ?>
