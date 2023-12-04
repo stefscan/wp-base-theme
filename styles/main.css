@@ -14,7 +14,7 @@ body {
 
 header {
     height: 400px;
-    color: #efefef;
+    color: #333;
     border-bottom: 1px solid #333;
     display: flex;
     align-items: center;
@@ -24,7 +24,14 @@ section {
     margin: 80px 0px;
 }
 
+article {
+    margin: 60px 0px;
+
+}
+
 footer {
+    display: flex;
+    align-items: center;
     height: 100px;
     border-top: 1px solid #333;
 }

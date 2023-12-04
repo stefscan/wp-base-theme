@@ -13,8 +13,11 @@
     <?php wp_body_open(); ?>
 
     <header>
-        <h1><?php bloginfo('name'); ?></h1>
-        <p class="header-slogan"><?php bloginfo('description') ?></p>
+        <div class="container">
+            <h1><?php bloginfo('name'); ?></h1>
+            <p class="header-slogan"><?php bloginfo('description') ?></p>
+        </div>
+       
     </header>
 
     <main class="container">

@@ -1,16 +1,21 @@
 <?php get_header(); ?>
 
-<?php if(have_posts()): ?>
+<section>
 
-    <?php while(have_posts()): the_post(); ?>
+    <h2>Nouvelles</h2>
 
-    <article>
-        <h2 class="title"><?php the_title(); ?></h2>
-        <p><?php the_content(); ?></p>
-    </article>
+    <?php if(have_posts()): ?>
 
-    <?php endwhile; ?>
+        <?php while(have_posts()): the_post(); ?>
 
-<?php endif; ?>
+        <article>
+            <h3 class="title"><?php the_title(); ?></h3>
+            <p><?php the_content(); ?></p>
+        </article>
 
+        <?php endwhile; ?>
+
+    <?php endif; ?>
+
+</section>
 <?php get_footer(); ?>
