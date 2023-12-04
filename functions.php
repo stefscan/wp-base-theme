@@ -6,6 +6,9 @@
         add_theme_support( 'title-tag' );
         add_theme_support( 'post-thumbnails' );
 
+        // À tester ...
+        add_theme_support( 'html5', array( 'search-form', 'navigation-widgets' ) );
+
         // Support logo
         // Support Header
 
