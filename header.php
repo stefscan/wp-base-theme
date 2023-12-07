@@ -11,8 +11,12 @@
 
 <body <?php body_class(); ?> >
     <?php wp_body_open(); ?>
-
-    <header>
+<!-- TASK : Ajouter  le "custom-logo" en faisant le nav -->
+    <header style="
+    background-image: url(<?php header_image()?>);
+    background-size: cover;
+    background-position: center;
+    ">
         <div class="container">
             <h1><?php bloginfo('name'); ?></h1>
             <p class="header-slogan"><?php bloginfo('description') ?></p>
