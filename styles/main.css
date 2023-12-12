@@ -57,6 +57,11 @@ footer {
     justify-content: space-between;
 }
 
+.fluid {
+    width: 100%;
+    height: auto;
+}
+
 /* Grille d'affichage flexbox */
 
 /* 5 items */
