@@ -4,7 +4,15 @@
 
     <article>
         <h3><?php the_title(); ?></h3>
-        <p><?php the_content(); ?></p>
+
+         <!-- NOTE :  the_excerpt(); affiche un extrait de l'article.
+        Pour afficher l'article complet, utiliser the_content(); -->
+        <p><?php the_excerpt();  ?></p>
+       
+        <!-- NOTE : the_permalink(); sert à récupérer le lien vers l'article -->
+        <a href="<?php the_permalink(); ?>">Consulter l'article complet</a>
+       
+      
     </article>
 
     <?php endwhile; ?>

@@ -6,8 +6,7 @@
         // Générer automatiquement la balise "title" pour chaque page
         add_theme_support( 'title-tag' );
 
-        // Permettre l'ajout d'un image de premier plan 
-        //pour les articles et pages
+        // Permettre l'ajout d'un image de premier plan pour les articles et pages
         add_theme_support( 'post-thumbnails' );
 
         // Support logo
