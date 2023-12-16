@@ -6,16 +6,16 @@
         // Générer automatiquement la balise "title" pour chaque page
         add_theme_support( 'title-tag' );
 
-        // Permettre l'ajout d'un image de premier plan pour les articles et pages
+        // Permettre l'ajout d'un image de premier plan pour les articles et les pages
         add_theme_support( 'post-thumbnails' );
 
-        // Support logo
+        // Support de logo
         add_theme_support('custom-logo', array(
             'width' => '100',
             "height" => '100'
         ));
 
-        // Support Header
+        // Support de Header
         add_theme_support('custom-header', array(
             'default-image' => get_template_directory_uri() . "/images/default.jpg"
         ));

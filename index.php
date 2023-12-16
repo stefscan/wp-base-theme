@@ -2,7 +2,7 @@
 
 <section>
 
-    <h2>Nouvelles</h2>
+    <h2>Accueil</h2>
     <?php get_template_part( "templates/main-loop" ); ?>
    
 </section>

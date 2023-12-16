@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-page.php
-
 <section>
 
     <article>
