@@ -27,7 +27,9 @@
     <div class="nav-container">
         <nav class="container">
             <div class="logo">
-                logo
+            <a href="<?php echo esc_url( home_url('/') ); ?>">
+                   <?php the_custom_logo(); ?>
+          </a>
             </div>
             <?php 
                 $args = array(

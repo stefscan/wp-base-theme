@@ -118,7 +118,7 @@ nav{
     text-decoration:none;
     background-color: #222;
     color: #efefef;
-    padding: 8px 6px;
+    padding: 10px 6px;
     transition: all 300ms ease;
 }
 
@@ -144,6 +144,10 @@ nav{
     color: #efefef;
 }
 
+.logo img{
+    height: 35px;
+    width: 35px;
+}
 
 /*----------------------------------*/
 /*             Responsive           */
