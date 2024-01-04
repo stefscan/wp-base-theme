@@ -93,6 +93,40 @@ footer {
 /*        Modules / composants      */
 /*----------------------------------*/
 
+.nav-container{
+    background-color: #222;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display:flex;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li{
+    display:block;
+}
+
+.menu a{
+    display:block;
+    text-decoration:none;
+    background-color: #222;
+    color: #efefef;
+    padding: 8px 6px;
+    transition: all 300ms ease;
+}
+
+.menu a:hover{
+    background-color: #eee;
+    color: #222;
+}
+
 .btn {
     display: block;
     border-radius: 5px;

@@ -24,5 +24,17 @@
         </div>
        
     </header>
-
+    <div class="nav-container">
+        <nav class="container">
+            <div class="logo">
+                logo
+            </div>
+            <?php 
+                $args = array(
+                    'theme_location' => 'main-menu' // Référence au menu déclaré dans funstions.php
+                );
+                wp_nav_menu($args) 
+            ?>
+        </nav>
+    </div>
     <main class="container">

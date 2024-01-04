@@ -23,6 +23,11 @@
         // À tester ...
         add_theme_support( 'html5', array( 'search-form', 'navigation-widgets' ) );
 
+        // Déclarer un menu (À créer dans l'admin de Wordpress)
+        register_nav_menus(array(
+            'main-menu'=> __('Menu principal')
+        ));
+
     }
     add_action('after_setup_theme','basetheme_setup');
 
