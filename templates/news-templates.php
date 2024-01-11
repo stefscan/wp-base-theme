@@ -12,6 +12,8 @@ Template Name: Gabarit Nouvelles
         'category_name' => 'Nouvelle',
         'post-type' => 'post'
     );
+    // Arguments pouvant être utilisés : https://www.billerickson.net/code/wp_query-arguments/
+
 
     // Créer une nouvelle requête utilisant les arguments
     $query = new WP_Query($args);
