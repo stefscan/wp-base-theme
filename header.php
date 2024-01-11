@@ -11,7 +11,7 @@
 
 <body <?php body_class(); ?> >
     <?php wp_body_open(); ?>
-<!-- TASK : Ajouter  le "custom-logo" en faisant le nav -->
+
     <header style="
     background-image: url(<?php header_image()?>);
     background-size: cover;
@@ -31,12 +31,18 @@
                    <?php the_custom_logo(); ?>
           </a>
             </div>
+            <div class="flex menu-container">
             <?php 
                 $args = array(
-                    'theme_location' => 'main-menu' // Référence au menu déclaré dans funstions.php
+                    'theme_location' => 'main-menu' // Référence au menu déclaré dans functions.php
                 );
                 wp_nav_menu($args) 
             ?>
+            <!-- NOTE : Le résultat de recherche sera affiché via le template "search.php" -->  
+            <form action="<?php echo esc_url(home_url('/')); ?>" method="get">
+                <input name="s" type="text" placeholder="Rechercher">
+            </form>
+            </div>
         </nav>
     </div>
     <main class="container">
