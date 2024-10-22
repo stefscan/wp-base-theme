@@ -55,43 +55,11 @@ footer {
     margin: 0 auto;
 }
 
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .fluid {
     width: 100%;
     height: auto;
 }
 
-/* Grille d'affichage flexbox */
-
-/* 5 items */
-.item-20 {
-    flex-basis: 19%;
-}
-
-/* 4 items */
-.item-25 {
-    flex-basis: 23%;
-}
-
-/* 3 items */
-.item-33 {
-    flex-basis: 32%;
-}
-
-/* 2 items */
-.item-50 {
-    flex-basis: 48%;
-}
-
-/* 1 item */
-.item-100 {
-    flex-basis: 100%;
-}
 
 /*----------------------------------*/
 /*        Modules / composants      */
@@ -177,9 +145,6 @@ nav {
 /* Mobile */
 
 @media screen and (max-width:768px) {
-    .flex {
-        flex-direction: column;
-    }
 
     .logo {
         padding: 10px 0;

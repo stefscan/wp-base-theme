@@ -1,0 +1,39 @@
+/* Grille d'affichage flexbox */
+
+/* 5 items */
+.item-20 {
+    flex-basis: 19%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 4 items */
+.item-25 {
+    flex-basis: 23%;
+}
+
+/* 3 items */
+.item-33 {
+    flex-basis: 32%;
+}
+
+/* 2 items */
+.item-50 {
+    flex-basis: 48%;
+}
+
+/* 1 item */
+.item-100 {
+    flex-basis: 100%;
+}
+
+
+@media screen and (max-width:768px) {
+    .flex {
+        flex-direction: column;
+    }
+}
