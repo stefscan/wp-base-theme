@@ -36,7 +36,7 @@
 
         wp_enqueue_style("gridcss", get_template_directory_uri() . '/styles/grid.css' );
 
-        // Le fichier css "mais.css" a une dépendance au fihcier "grid.css"
+        // Le fichier css "mais.css" a une dépendance au fichier "grid.css"
         wp_enqueue_style("maincss", get_template_directory_uri() . '/styles/main.css', array('gridcss') );
 
     }

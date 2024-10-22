@@ -3,7 +3,7 @@
 
 <section>
 
-    <article class="flex">
+    <article class="flex gap-40">
         <div class="item-50">
             <h2><?php the_title(); ?></h2>
             <p><?php the_content(); ?></p>
