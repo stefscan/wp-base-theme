@@ -65,6 +65,10 @@ footer {
 /*        Modules / composants      */
 /*----------------------------------*/
 
+.excerpt {
+    flex-basis: 48%;
+}
+
 .nav-container {
     background-color: #222;
 }

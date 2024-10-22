@@ -1,8 +1,10 @@
 <?php if(have_posts()): ?>
+<section class="flex wrap space-between">
 
     <?php while(have_posts()): the_post(); ?>
 
-    <article>
+    <article class="excerpt">
+
         <h3><?php the_title(); ?></h3>
 
          <!-- NOTE :  the_excerpt(); affiche un extrait de l'article.
@@ -16,5 +18,5 @@
     </article>
 
     <?php endwhile; ?>
-
+    </section>
 <?php endif; ?>
