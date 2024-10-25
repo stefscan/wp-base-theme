@@ -39,6 +39,11 @@
         // Le fichier css "mais.css" a une dépendance au fichier "grid.css"
         wp_enqueue_style("maincss", get_template_directory_uri() . '/styles/main.css', array('gridcss') );
 
+        // Lier un fichier script seulement quand le template demo-js est utilisé
+        if( is_page_template('templates/demo-js-template.php')){
+            wp_enqueue_script('clickerscript', get_template_directory_uri() . '/scripts/clicker.js');
+          }
+
     }
     add_action('wp_enqueue_scripts','basetheme_enqueue');
 
