@@ -7,12 +7,12 @@ Template Name: Gabarit Nouvelles
 <?php get_header();?>
 
 <?php
-    // Déclarer les arguments de requête
+    // Déclarer les arguments de la requête
     $args = array(
         'category_name' => 'Nouvelle',
         'post-type' => 'post'
     );
-    // Arguments pouvant être utilisés : https://www.billerickson.net/code/wp_query-arguments/
+    // Autres arguments pouvant être utilisés : https://www.billerickson.net/code/wp_query-arguments/
 
 
     // Créer une nouvelle requête utilisant les arguments

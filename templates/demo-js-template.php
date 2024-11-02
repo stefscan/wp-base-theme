@@ -2,6 +2,10 @@
 /*
 Template Name: Gabarit exemple JS
 */
+/*
+    Note: Exemple d'un template utilisant un script JS.
+    Voir scripts/clicker.js ET functions.php
+*/
 ?>
 
 <?php get_header(); ?>

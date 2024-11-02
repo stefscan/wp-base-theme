@@ -4,7 +4,7 @@
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Note : La balise title est généré par le 
+    <!-- Note : La balise <title> est généré par le 
     support de  thème "title-tag". Voir functions.php -->
     <?php wp_head(); ?>
 </head>
@@ -12,6 +12,8 @@
 <body <?php body_class(); ?> >
     <?php wp_body_open(); ?>
 
+<!-- Le customizer est utilisé pour personaliser 
+     l'image de la bannière (Voir functions.php) -->
     <header style="
     background-image: url(<?php header_image()?>);
     background-size: cover;
