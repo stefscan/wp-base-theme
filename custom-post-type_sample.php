@@ -19,7 +19,7 @@ function my_custom_post_type() {
       'search_items'       => __( 'Rechercher cpt' ),
       'not_found'          => __( 'cpt non trouvé' ),
       'not_found_in_trash' => __( 'Pas de cpt trouvé dans la corbeille' ), 
-      'parent_item_colon'  => ’,
+      'parent_item_colon'  => "’",
       'menu_name'          => 'cpt pluriel avec lettre majuscule'
     );
     $args = array(
